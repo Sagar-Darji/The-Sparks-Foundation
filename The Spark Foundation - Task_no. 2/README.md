@@ -1,8 +1,8 @@
-##  ***The Sparks Foundation - Data Science and Business Analytics Internship***
+##  ***The Sparks Foundation - Task no. 2 : Prediction using unsupervised Machine Learning***
 
-### ***Task no. 2 - Prediction using unsupervised Machine Learning***
+[![](https://img.shields.io/badge/author-@SagarDarji-blue.svg?style=flat)](https://www.linkedin.com/in/sagar-darji-7b7011165/)
 
-#### *Problem Statement - From the given 'Iris' Dataset predict the optimum number of cluster and represent it visually.*
+## Problem Statement - From the given 'Iris' Dataset predict the optimum number of cluster and represent it visually.
 
 ### Step 1 - Importing Libraries 
 
@@ -30,19 +30,6 @@ iris_df.head() # See the first 5 rows
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -396,16 +383,4 @@ axes[1].set_title('Predicted', fontsize=14)
 plt.show()
 ```
 
-
 ![png](output_22_0.png)
-
-
-
-```python
-
-```
-
-
-```python
-
-```
