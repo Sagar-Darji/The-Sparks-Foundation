@@ -1,8 +1,7 @@
-##  ***The Sparks Foundation - Data Science and Business Analytics Internship***
+##  ***The Sparks Foundation - Task no. 3: Exploratory Data Analysis***
+[![](https://img.shields.io/badge/author-@SagarDarji-blue.svg?style=flat)](https://www.linkedin.com/in/sagar-darji-7b7011165/)
 
-### ***Task no. 3 - Exploratory Data Analysis***
-
-#### *Problem Statement - As a business manager, try to find out the weak areas where you can work to make more profit.*
+## *Problem Statement - As a business manager, try to find out the weak areas where you can work to make more profit.*
 
 #### Dataset - https://bit.ly/3i4rbWl
 
@@ -30,19 +29,7 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -197,19 +184,6 @@ df.describe()  # Check the statistical Summary
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -463,7 +437,7 @@ plt.show()
 ![png](output_20_1.png)
 
 
-##### Insight 1 - It it pertinent from the above graph that the California reorded the maximum sales among the states
+### Insight 1 - It it pertinent from the above graph that the California reorded the maximum sales among the states
 
 
 ```python
@@ -499,7 +473,7 @@ plt.show()
 ![png](output_22_1.png)
 
 
-##### Insight 2 - It it pertinent from the above graph that the Binders is most sold Sub Catagory.
+### Insight 2 - It it pertinent from the above graph that the Binders is most sold Sub Catagory.
 
 
 ```python
@@ -544,7 +518,7 @@ plt.legend()
 ![png](output_27_1.png)
 
 
-##### Insight 3 - It it pertinent from both the above graph that  their is exist inverse corelation between Discount and Profit
+### Insight 3 - It it pertinent from both the above graph that  their is exist inverse corelation between Discount and Profit
 
 
 ```python
@@ -559,7 +533,7 @@ plt.show()
 ![png](output_29_0.png)
 
 
-##### Insight 4 - It it pertinent from above pie chart that, Standard Class is most prefered ship mode and Same Day is least prefered one.
+### Insight 4 - It it pertinent from above pie chart that, Standard Class is most prefered ship mode and Same Day is least prefered one.
 
 
 ```python
@@ -611,8 +585,7 @@ plt.legend()
 
 ![png](output_33_1.png)
 
-
-##### Insight 5 - It it pertinent from above that, the Central region record the good sales but still not the best in terms of profit.
+### Insight 5 - It it pertinent from above that, the Central region record the good sales but still not the best in terms of profit.
 
 
 ```python
@@ -626,9 +599,8 @@ plt.show()
 
 ![png](output_35_0.png)
 
+### Insight 6 - It it pertinent from above pie chart that, the Consumer is the most dominent segment. 
 
-##### Insight 6 - It it pertinent from above pie chart that, the Consumer is the most dominent segment. 
-
-#Conclusion - the weak areas where we required to focus on are - 
-a. Only discount is not impacting the sale. So need to work on some different strategy. 
-b. Central region records the good sales but profit is not significent and need to work on.
+# Conclusion - the weak areas where we required to focus on are:
+-  ***Only discount is not impacting the sale. So need to work on some different strategy.***
+-  ***Central region records the good sales but profit is not significent and need to work on.***
