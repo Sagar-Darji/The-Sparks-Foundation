@@ -1,10 +1,10 @@
-##  ***The Sparks Foundation - Data Science and Business Analytics Internship***
+##  ***The Sparks Foundation - Task no. 4: Exploratory Data Analysis - Global Terrarism***
 
-### ***Task no. 4 - Exploratory Data Analysis - Global Terrarism*** 
+[![](https://img.shields.io/badge/author-@SagarDarji-blue.svg?style=flat)](https://www.linkedin.com/in/sagar-darji-7b7011165/)
 
-#### *Problem Statement - *
-1. *As a security/defense analyst, try to find out the hot zone of terrorism.*
-2. *What all security issues and insights you can derive by EDA?*
+#### Problem Statement:
+1. As a security/defense analyst, try to find out the hot zone of terrorism.
+2. What all security issues and insights you can derive by EDA?
 
 #### Dataset - https://bit.ly/2TK5Xn5
 
@@ -38,19 +38,6 @@ Terror_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -278,19 +265,6 @@ Terror_df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -527,19 +501,6 @@ Terror_df.corr()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -886,19 +847,6 @@ Terror_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1076,27 +1024,6 @@ sns.pairplot(Terror_df, hue = 'Region')
 plt.show()
 ```
 
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    C:\Users\ADMIN\anaconda3\lib\site-packages\seaborn\distributions.py:369: UserWarning: Default bandwidth for data is 0; skipping density estimation.
-      warnings.warn(msg, UserWarning)
-    
-
-
 ![png](output_23_1.png)
 
 
@@ -1153,7 +1080,8 @@ plt.show()
 ![png](output_27_0.png)
 
 
-#Con1: Iran, Pakistan, Afghanistan, India and Colombia are the top five countries, who were suffered the most number of terrorist attackes and which are amoungt the countries with the Muslim majority or having sizable muslim population. 
+## Conclusion 1: 
+Iran, Pakistan, Afghanistan, India and Colombia are the top five countries, who were suffered the most number of terrorist attackes and which are amoungt the countries with the Muslim majority or having sizable muslim population. 
 
 ### REGION AFFECTED BY TERRORIST ATTACKS
 
@@ -1179,7 +1107,8 @@ plt.show()
 ![png](output_31_0.png)
 
 
-#Con2: Though the Middle East & North Africa and South Asia are the two most affected regions of the world but West Europe and South America also impacted substantly. Whereas the East Asia and Australia & Oceania are the most peacfull region. Middle East & North Africa is boiling in the heat of Arab spring which fueled by severl socio-economic challenges as well the dictator or authoritarian regimes. East Asia and Australia & Oceania are the most peacfull region. 
+## Conclusion 2: 
+Though the Middle East & North Africa and South Asia are the two most affected regions of the world but West Europe and South America also impacted substantly. Whereas the East Asia and Australia & Oceania are the most peacfull region. Middle East & North Africa is boiling in the heat of Arab spring which fueled by severl socio-economic challenges as well the dictator or authoritarian regimes. East Asia and Australia & Oceania are the most peacfull region. 
 
 ### CITIES AFFECTED BY TERRORIST
 
@@ -1239,7 +1168,8 @@ plt.show()
 ![png](output_37_0.png)
 
 
-#Con3: Above graph indicates that, there is sudden spick observed from the year 1978 to 1997 and than, from 2011 to 2015,  and since 2015 it is decresing. The 1978 - 1997 were the years which recored several historic events, to name a few was Creation of Bandladesh as new nation (Indo-Pak War 1971), Iraq war, USSR invesion to Afghanistan and retreat after disintregration, USA investion in Afghanistan, Kargil War.   
+## Conclusion 3: 
+Above graph indicates that, there is sudden spick observed from the year 1978 to 1997 and than, from 2011 to 2015,  and since 2015 it is decresing. The 1978 - 1997 were the years which recored several historic events, to name a few was Creation of Bandladesh as new nation (Indo-Pak War 1971), Iraq war, USSR invesion to Afghanistan and retreat after disintregration, USA investion in Afghanistan, Kargil War.   
 
 ### TYPE OF ATTACK USED BY TERRORISTS
 
@@ -1258,7 +1188,8 @@ plt.show()
 ![png](output_40_0.png)
 
 
-#Con4: Bombing/Explosion is the most perfered attack type used for mass distruction followed by Armed assault.Due increse in security level and Technical modernization of armed forces, Hijacking and Hostages are less prefered option.
+## Conclusion 4: 
+Bombing/Explosion is the most perfered attack type used for mass distruction followed by Armed assault.Due increse in security level and Technical modernization of armed forces, Hijacking and Hostages are less prefered option.
 
 ### WEAPON USED FOR SUPPORTING THE ATTACK TYPE VISUA
 
@@ -1280,7 +1211,8 @@ plt.show()
 ![png](output_43_0.png)
 
 
-#Con5: Explosion is the most perfered weapon used for mass distruction followed by firearms.Somethings which United Nation and their member nation need to bother for is the pronsness of getting the Biological and Radiological weapons in the hand of any such groups which have backings from nuclear power nations with weak political controle. Example - Pakistan 
+## Conclusion 5: 
+Explosion is the most perfered weapon used for mass distruction followed by firearms.Somethings which United Nation and their member nation need to bother for is the pronsness of getting the Biological and Radiological weapons in the hand of any such groups which have backings from nuclear power nations with weak political controle. Example - Pakistan 
 
 
 ### ATTACK TARGETS
@@ -1334,7 +1266,8 @@ plt.show()
 ![png](output_47_0.png)
 
 
-#Con6: Private Citizen & Property apper the most prefred soft target for the terorr groups to spread thread and fear. This targets are instrumental in impacting the counrty economically as well as socially. 
+## Conclusion 6: 
+Private Citizen & Property apper the most prefred soft target for the terorr groups to spread thread and fear. This targets are instrumental in impacting the counrty economically as well as socially. 
 
 ### NAME OF GROUP ATTACKS TERRORIST
 
@@ -1354,19 +1287,15 @@ plt.show()
 ![png](output_50_0.png)
 
 
-#Con7: Terorr groups who responsibile for the majore attacks are Unknown groups and are spread across the countries. The known terorr groups are either religioslly or politically motiveted with some vested intrests countries.   
+## Conclusion 7: 
+Terorr groups who responsibile for the majore attacks are Unknown groups and are spread across the countries. The known terorr groups are either religioslly or politically motiveted with some vested intrests countries.   
 
-Final OBSERVATIONS - 
-
+# Final OBSERVATIONS - 
 1. Iran, Pakistan, Afghanistan, India and Colombia are the top five countries, who were suffered the most number of terrorist attackes and which are amoungt the countries with the Muslim majority or having sizable muslim population.
-
 2. Though the Middle East & North Africa and South Asia are the two most affected regions of the world but West Europe and South America also impacted substantly. Whereas the East Asia and Australia & Oceania are the most peacfull region.
-
 3. There is sudden spick observed from the year 1978 to 1997 and than, from 2011 to 2015,  and since 2015 it is decresing. Constant efforts on India has paved the way to recognize "Terorr" as a treath to humanity in UN.
-
 4. Bombing/Explosion is the most perfered attack type used for mass distruction as it provide maximum opporunity to escape, followed by Armed assault.
-
 5. Explosion & firearms the most perfered attack type used for The mass distruction. Although the Biological and Radiological weapons are still out of there (Terorr Groups) reach, but how long this is a matter of concern.
-
-7. Private Citizen & Property and Business are apper to be the most prefred soft target for the terorr groups to spread threat and fear. This targets are instrumental in impacting the counrty's economy as well as social order. 
+6. Private Citizen & Property and Business are apper to be the most prefred soft target for the terorr groups to spread threat and fear. This targets are instrumental in impacting the counrty's economy as well as social order. 
+7. Terorr groups who responsibile for the majore attacks are Unknown groups and are spread across the countries. The known terorr groups are either religioslly or politically motiveted with some vested intrests countries.
 
