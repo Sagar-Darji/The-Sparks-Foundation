@@ -1,8 +1,7 @@
-##  ***The Sparks Foundation - Data Science and Business Analytics Internship***
+## The Sparks Foundation - Task no. 1 - Prediction using supervised Machine Learning
+[![](https://img.shields.io/badge/author-@SagarDarji-blue.svg?style=flat)](https://www.linkedin.com/in/sagar-darji-7b7011165/)
 
-### ***Task no. 1 - Prediction using supervised Machine Learning***
-
-#### *Problem Statement - Predict the percentage of an student based on the no. of study hours.*
+## Problem Statement:  Predict the percentage of an student based on the no. of study hours.*
 
 #### Objective - What should be the predicted score if student studies for 9.5 hours/day?
 
